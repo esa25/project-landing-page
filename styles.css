@@ -36,7 +36,13 @@ a {
 
 .human-kindness {
     height: auto;
-    width: 350px;
+    width: 450px;
+}
+
+.Sign-up {
+    background-color: cornsilk;
+    height: auto;
+    width: 100px;
 }
 
 .content-two {
@@ -68,23 +74,22 @@ img {
     padding:30px;
 }
 
+.content-four {
+    background-color: rgba(111, 179, 182, 0.815);
+    height: 100px;
+    width: 800px;
+    text-align: center;
+    margin: 30px;
+    margin-left: 300px;
+    gap:20px;
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.footer-info {
+    text-align: center;
+    background-color: lightgrey;
+    color: lightslategray;
+    padding: 15px;
+}
 
 
 
@@ -108,16 +113,14 @@ ul {
 
 .content {
     display: flex;
-    align-items: flex-start;
-    justify-content: space-between;
-    flex-direction: row;
-    flex-wrap: wrap;
+    gap:10px;
 }
 
-
-
-
-
+.content-info {
+    display: flex;
+    flex-direction: column;
+    gap:10px;
+}
 
 .content-two {
     display: flex;
@@ -125,4 +128,16 @@ ul {
     justify-content:space-around;
     flex:column nowrap;
     padding: 30px;
+}
+
+.content-four {
+    display: flex;
+    align-items: center;
+    justify-content:center;
+}
+
+.footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
